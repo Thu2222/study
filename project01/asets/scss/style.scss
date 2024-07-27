@@ -1,0 +1,38 @@
+@import 'reset';
+@import 'variables';
+@import 'base';
+
+/*header*/ 
+.header{
+    background-color: rgb(252, 212, 219);
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    .inner-wrap{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        .logo{
+            font-size:30px;
+            font-weight: 700;
+            font-style: italic;
+        }
+        .inner-menu{
+            ol{
+                display: flex;
+               
+                li{
+                    a{
+                        padding: 10px;
+                        font-size: 20px;
+                        
+
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+/*end header*/ 

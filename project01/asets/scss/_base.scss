@@ -1,0 +1,23 @@
+@import 'variables';
+.container{
+    max-width:1400px;
+    margin: 0 auto;
+}
+input,textarea,select,option{
+    border:none;
+    outline: none;
+}
+ol,ul{
+    list-style: none;
+}
+button{
+    border: node;
+    outline: none;
+    background: transparent;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    
+}
+
